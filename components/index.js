@@ -1,11 +1,11 @@
 import Vue from 'vue'
 
-import MyBox from '@/components/box'
-import SearchBox from '@/components/searchBox'
-import MyBadge from '@/components/myBadge'
-import MyUpload from '@/components/myUpload'
+import fplBox from './box'
+//import fplSearchBox from './searchBox'
+import fplBadge from './myBadge'
+//import fplUpload from './myUpload'
 
-Vue.component('MyBox', MyBox)
-Vue.component('SearchBox', SearchBox)
-Vue.component("MyBadge", MyBadge)
-Vue.component("MyUpload", MyUpload)
+Vue.component('fpl-box', fplBox)
+//Vue.component('fpl-search-box', fplSearchBox)
+Vue.component("fpl-badge", fplBadge)
+//Vue.component("fpl-upload", fplUpload)

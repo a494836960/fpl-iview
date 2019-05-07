@@ -41,6 +41,7 @@
 
   export default {
     props: ['action', 'data', 'defaultList'],
+    name: 'fpl-upload',
     data() {
       let token = this.$store.getters.access_token
       return {

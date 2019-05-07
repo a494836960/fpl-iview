@@ -6,7 +6,7 @@
 <script>
   export default {
     props: ['list', 'target'],
-    name: 'my-badge',
+    name: 'fpl-badge',
     data() {
       return {
         curData: {}

@@ -12,6 +12,7 @@
 <script>
   export default {
     props: ['title', 'cls'],
+    name: 'fpl-box',
     data() {
       return {};
     }
